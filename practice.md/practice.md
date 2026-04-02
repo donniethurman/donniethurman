@@ -32,7 +32,8 @@ You can also check out the [contributing guidelines] (https://github.com/usernam
 ## Screenshots
 
 Markdown Logo
-https://assets.codepen.io/16425/image-placeholder.png
+[Placeholder Image](https://assets.codepen.io/16425/image-placeholder.png)
+![Placeholder Image](https://assets.codepen.io/16425/image-placeholder.png)
 
 ## Tasks
 
@@ -46,8 +47,7 @@ https://assets.codepen.io/16425/image-placeholder.png
 
 We :heart:  open source! Let's build something amazing together!
 
-Feel free to contribute and don't forget to :star:
- the repo!
+Feel free to contribute and don't forget to :star: the repo!
 
 ## Important Notes
 > [!NOTE]
