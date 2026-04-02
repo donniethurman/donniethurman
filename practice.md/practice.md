@@ -25,9 +25,9 @@ npm start
 
 ## Documentation
 
-For more information, [visit our official documentation] (https://github.com/username/project).
+For more information, [visit our official documentation](https://github.com/username/project).
 
-You can also check out the [contributing guidelines] (https://github.com/username/project/blob/main/CONTRIBUTING.md).
+You can also check out the [contributing guidelines](https://github.com/username/project/blob/main/CONTRIBUTING.md).
 
 ## Screenshots
 
