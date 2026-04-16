@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="refresh" content="0; url=README.md" />
+  <script>
+    window.location.replace('README.md');
+  </script>
+  <title>Donnie Thurman</title>
+</head>
+<body></body>
+</html><!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Donnie Thurman portfolio and creative practice site." />
+  <title>Donnie Thurman</title>
+  <style>
+    :root {
+      --bg: #f3eee6;
+      --panel: rgba(255, 255, 255, 0.76);
+      --text: #1c1814;
+      --muted: #5f554b;
+      --accent: #9f5630;
+      --border: rgba(28, 24, 20, 0.12);
+      --shadow: 0 24px 60px rgba(40, 28, 18, 0.14);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      color: var(--text);
+      font-family: Georgia, "Times New Roman", serif;
+      background:
+        radial-gradient(circle at top left, rgba(159, 86, 48, 0.14), transparent 34%),
+        radial-gradient(circle at right center, rgba(38, 96, 113, 0.12), transparent 28%),
+        linear-gradient(180deg, #f8f3ec 0%, var(--bg) 100%);
+    }
+
+    .shell {
+      width: min(1080px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 32px 0 48px;
+    }
+
+    .hero {
+      position: relative;
+      overflow: hidden;
+      border: 1px solid var(--border);
+      border-radius: 28px;
+      background: var(--panel);
+      box-shadow: var(--shadow);
+      isolation: isolate;
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        linear-gradient(135deg, rgba(18, 14, 11, 0.74), rgba(18, 14, 11, 0.18)),
+        url("https://snipboard.io/mSPcqR.jpg") center/cover;
+      z-index: -2;
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, rgba(18, 14, 11, 0.08), rgba(18, 14, 11, 0.54));
+      z-index: -1;
+    }
+
+    .hero-content {
+      display: grid;
+      gap: 24px;
+      min-height: 72vh;
+      padding: 44px;
+      align-content: end;
+      color: #fff8f0;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      width: fit-content;
+      padding: 8px 12px;
+      border-radius: 999px;
+      border: 1px solid rgba(255, 255, 255, 0.22);
+      background: rgba(255, 255, 255, 0.08);
+      font: 700 0.76rem/1.1 Arial, sans-serif;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 0;
+      max-width: 9ch;
+      font-size: clamp(3rem, 10vw, 6.8rem);
+      line-height: 0.92;
+      letter-spacing: -0.05em;
+    }
+
+    .intro {
+      max-width: 62ch;
+      margin: 0;
+      font-size: clamp(1.02rem, 1.6vw, 1.18rem);
+      line-height: 1.7;
+      color: rgba(255, 248, 240, 0.9);
+    }
+
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 8px;
+    }
+
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 12px 16px;
+      border-radius: 999px;
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      font-family: Arial, sans-serif;
+      font-weight: 700;
+      text-decoration: none;
+      transition: transform 180ms ease, background-color 180ms ease;
+    }
+
+    .button:hover { transform: translateY(-1px); }
+    .button.primary { background: #fff; color: var(--text); }
+    .button.secondary { background: rgba(255, 255, 255, 0.08); color: #fff; }
+
+    .content {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .card {
+      grid-column: span 6;
+      padding: 24px;
+      border-radius: 24px;
+      border: 1px solid var(--border);
+      background: rgba(255, 255, 255, 0.68);
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(10px);
+    }
+
+    .card.full { grid-column: span 12; }
+
+    h2 {
+      margin: 0 0 12px;
+      color: #29586a;
+      font: 700 1.05rem/1.2 Arial, sans-serif;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    p, li {
+      margin: 0;
+      color: var(--muted);
+      font-size: 1rem;
+      line-height: 1.75;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 20px;
+      display: grid;
+      gap: 10px;
+    }
+
+    @media (max-width: 760px) {
+      .shell { width: min(100% - 20px, 1080px); }
+      .hero-content { min-height: 64vh; padding: 24px; }
+      .card { grid-column: span 12; }
+      h1 { max-width: 100%; }
+    }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <section class="hero" aria-labelledby="title">
+      <div class="hero-content">
+        <div class="eyebrow">Web Design Student / Visual Communication Design</div>
+        <div>
+          <h1 id="title">Donnie Thurman</h1>
+          <p class="intro">I am a student at Eastern Washington University, studying Visual Communication Design with a focus in Web Design. I am passionate about multi-faceted design, innovating, and building community. I enjoy creating websites using HTML, CSS, and JavaScript.</p>
+          <div class="links">
+            <a class="button primary" href="#about">About Me</a>
+            <a class="button secondary" href="#focus">Focus</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="content" aria-label="Site details">
+      <article class="card" id="about">
+        <h2>About</h2>
+        <p>There is so much beauty in the world, and I want to translate it into something everyone can relate to through thoughtful web design and creative problem solving.</p>
+      </article>
+
+      <article class="card" id="focus">
+        <h2>Focus</h2>
+        <ul>
+          <li>Web design and visual storytelling</li>
+          <li>Clean, human-centered interfaces</li>
+          <li>Creative experimentation with code</li>
+        </ul>
+      </article>
+
+      <article class="card full">
+        <h2>GitHub Pages</h2>
+        <p>This root <strong>index.html</strong> gives GitHub Pages a default file to serve, which is why the site should now load instead of showing a blank page.</p>
+      </article>
+    </section>
+  </main>
+</body>
+</html>
