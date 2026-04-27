@@ -11,6 +11,12 @@ Hey... I'm Donnie! Currently I'm a student at Eastern Washington University, stu
 - Figma
 - Milanote
 
+## HOBBIES
+- 📖 reading
+- ⛰️ backpacking
+- ✂️ scrapbooking
+- ✏️ drawing
+
 ## KEEP IN TOUCH 
 Find me on [LinkedIn](https://www.linkedin.com/in/donnie-thurman-0b0b093a8/)
 
