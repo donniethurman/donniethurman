@@ -20,5 +20,6 @@ Hey... I'm Donnie! Currently I'm a student at Eastern Washington University, stu
 
 ## KEEP IN TOUCH 
 Find me on [LinkedIn](https://www.linkedin.com/in/donnie-thurman-0b0b093a8/)
+Find me on [Instagram](https://www.instagram.com/_dtdesigns/) 
 
 There is so much beauty in the world, I'm here to translate it into something everyone can relate to. 
