@@ -10,6 +10,7 @@ Hey... I'm Donnie! Currently I'm a student at Eastern Washington University, stu
 - Adobe Illustrator
 - Figma
 - Milanote
+- Astro Frameworks
 
 ## HOBBIES
 - 📖 reading
