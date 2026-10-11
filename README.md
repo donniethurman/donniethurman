@@ -24,3 +24,6 @@ Find me on
 - [Instagram](https://www.instagram.com/_dtdesigns/) 
 
 There is so much beauty in the world, I'm here to translate it into something everyone can relate to. 
+
+https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdGMwZWY3NjZkamp0NzZtNzJkcGNkNDdnbWV3dHhxaTMyMHVlZGgxMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/RHIKETUlUINYvV7CAO/giphy.gif
+
